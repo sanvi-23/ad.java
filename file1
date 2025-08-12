@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main{ //Here we declared the class
+    
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        //String a = sc.next();
+        //String b = sc.next();
+
+        //System.out.println("range: " + Byte.MIN_VALUE + "to" + Byte.MAX_VALUE);
+        int c=sc.nextInt();
+        System.out.println("range:" + Integer.MIN_VALUE + "to" + Integer.MAX_VALUE);
+    }
+}
