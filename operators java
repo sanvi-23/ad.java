@@ -1,0 +1,17 @@
+public class main{ //Here we declared the class
+    
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int sum = a + b;
+        int multi = a * b;
+        int sub = a - b;
+        int divide = a / b;
+        System.out.println("Addition: " + sum);
+        System.out.println("multiplication:" + multi);
+        System.out.println("Subtraction:" + sub);
+        System.out.println("Division:" + divide);
+    }
+}
